@@ -1,0 +1,247 @@
+#contact{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),  url('images/back1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact{
+    width: 100%;
+}
+.contact-text h1{
+    font-size: 41px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+.section{
+    display: flex;
+    align-items: center;
+    padding: 80px 30px;
+    justify-content: space-between;
+}
+.left-contact{
+    width: 30%;
+}
+.left-contact h2{
+    font-size: 1.8em;
+}
+.left-contact h2, .right-contact h3{
+    color: #0b0d3d;
+}
+.left-contact p, .right-contact p{
+    color: #7e7e7e;
+}
+
+ .left-contact p, .right-contact p{
+    padding: 5px 0px 0px 0px;
+}
+hr{
+    margin: 20px 0px;
+    background-color: #eee;
+}
+
+.infos h4{
+    font-size: 1em;
+    font-weight: 500;
+    color: #2d2b31;
+    padding-bottom: 10px;
+}
+.infos .info{
+    display: flex;
+    padding-bottom: 30px;
+}
+.info p{
+    font-size: .85em;
+}
+.info i{
+    margin-top: 5px;
+    font-size: 1.3em;
+    color: #15175f;
+    margin-right: 10px;
+}
+
+.social-pro{
+    color: #2f2a4b;
+}
+.social-pro i{
+    padding: 10px;
+    border: 1px solid #1f3c75;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.social-pro i:hover{
+    background: #15175f;
+    color: white;
+}
+
+
+.right-contact{
+    background-color: #e8e5ef;
+    padding: 30px;
+    width: 60%;
+    border-radius: 10px;
+}
+.right-contact h3{
+   font-size: 1.5em;
+}
+.form-contact input{
+    display: inline-block;
+    width: 48%;
+    height: 45px;
+    padding: 30px 20px;
+}
+.form-contact input[type=text] {
+    margin-right: 15px;
+}
+.form-contact textarea[name=Subject]{
+    resize: none;
+    display: block;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.form-contact textarea[name=comment]{
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+textarea{
+    padding: 20px;
+}
+input, textarea{
+    margin-top: 20px;
+    border: none;
+}
+.form-contact button {
+    background-color: #15175f;
+    padding: 10px 20px;
+    border-radius: 5px 5px;
+    text-transform: capitalize;
+    border: 2px solid #15175f;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+.form-contact button:hover{
+    background-color: #fff;
+    color: #15175f;
+    transition: .3s all ease-in-out;
+}
+
+
+
+#place iframe{
+    width: 100%;
+}
+
+
+@media (max-width:800px) {
+    .form-contact input[type=text] {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 750px){
+.form-contact input[type=text] {
+    margin-right: 5px;
+}
+}
+@media (max-width: 700px){
+    .section {
+        padding: 80px 15px;
+    }
+}
+@media (max-width: 650px){
+    .section {
+        display: block;
+        align-items: center;
+        padding: 100px 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    .right-contact {
+        width: 100%;
+    }
+    .left-contact {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .infos .info {
+        display: flex;
+        padding-bottom: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .form-contact input[type=text] {
+        margin-right: 15px;
+    }
+}
+@media (max-width: 600px){
+    .form-contact input[type=text] {
+        margin-right: 10px;
+    }
+}
+@media (max-width: 550px){
+    .form-contact input[type=text] {
+        margin-right: 9px;
+    }
+    .form-contact input {
+        padding: 25px 15px;
+    }
+    .form-contact textarea[name=Subject] {
+        height: 50px;
+    }
+    textarea {
+        padding: 15px;
+    }
+    .form-contact textarea[name=comment] {
+        display: block;
+        width: 100%;
+        height: 180px;
+        margin-bottom: 20px;
+    }
+    .left-contact p, .right-contact p {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 500px){
+    .form-contact input[type=text] {
+        margin-right: 0px;
+    }
+    .form-contact input {
+        display: block;
+        width: 100%;
+        height: 45px;
+    }
+}
+@media (max-width: 350px){
+.form-contact textarea[name=comment] {
+    height: 140px;    
+}
+.right-contact h3 {
+    font-size: 1.2em;
+}
+.left-contact p, .right-contact p {
+    font-size: 0.8em;
+}
+.footer-desc {
+    display: flex;
+    justify-content: center;
+}
+.contact-text h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+}

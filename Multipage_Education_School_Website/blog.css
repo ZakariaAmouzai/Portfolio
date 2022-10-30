@@ -1,0 +1,119 @@
+#blog{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),  url('images/back1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog{
+    width: 100%;
+}
+.blog-text h1{
+    font-size: 41px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    padding-top: 60px;
+}
+
+
+/*blog*/
+#blog-continer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.read{
+    background-color: #15175f;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px 30px;
+    border-radius: 5px 5px;
+    transition: .3s all ease-in-out;
+    cursor: pointer;
+    border: 1px solid #15175f;
+}
+.read:hover, .visit:hover{
+    background-color: #fff;
+    border: 1px solid #15175f;
+    color: #15175f;
+}
+.blog-continer{
+    display: flex;
+    justify-content: space-between;
+}
+.blogs{
+    width: 60%;
+}
+.post{
+    margin-bottom: 100px;
+}
+.blogs img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.blogs h3{
+    color: #25282c;
+    font-size: 1.2em;
+}
+.blogs p{
+    color: #7e7e7e;
+    padding: 10px 0px 30px 0px;
+}
+
+.cate{
+    width: 30%;
+    padding: 15px 0px;
+}
+.cate hr{
+    margin: 10px 0px;
+}
+.cate h2{
+    color: #000;
+    font-size: 1.4em;
+}
+.cate a{
+    color: #7e7e7e;
+}
+.cate a:hover{
+    color: #15175f;
+    transition: all .3s ease-in-out;
+}
+
+
+@media (max-width: 700px) {
+    .blogs p {
+        color: #7e7e7e;
+        font-size: 0.8em;
+        padding: 10px 0px 30px 0px;
+    }
+}
+@media (max-width: 650px) {
+    .blog-continer{
+        display: block;
+    }
+    .blogs{
+        width: 100%;
+    }
+    .cate{
+        width: 100%;
+    }
+    .blogs h3 {
+        color: #25282c;
+        font-size: 1em;
+    }
+}
+@media (max-width: 350px) {
+    .blogs h3 {
+        color: #25282c;
+        font-size: 1em;
+    }
+    .blogs p{
+            font-size: 0.7em;
+    }
+}
